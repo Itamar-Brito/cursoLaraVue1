@@ -17,12 +17,16 @@ window.Vue = require('vue');
 
 import ExampleComponent from './components/ExampleComponent.vue';
 import TopoPage from './components/TopoPage.vue';
+import PainelPage from './components/PainelPage.vue';
+
+
 
 
 const app = new Vue({
     el: '#app',
     components:{
         ExampleComponent,
-        TopoPage
+        TopoPage,
+        PainelPage
     }
 });
